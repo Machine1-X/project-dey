@@ -4,7 +4,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
-v = pd.read_csv('dataset/Walmart_Sales.csv')
+v = pd.read_csv('dataset you can get on this link "https://www.kaggle.com/datasets/mikhail1681/walmart-sales/data"')
 
 v.columns = v.columns.str.strip()
 v1 = v.select_dtypes(include=['str']).columns
